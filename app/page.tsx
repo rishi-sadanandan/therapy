@@ -57,11 +57,11 @@ export default function Chat() {
             <InfoCircledIcon className="h-4 w-4" />
           </Button>
         </DialogTrigger>
-        <DialogContent className="sm:max-w-[425px]">
+        <DialogContent className="max-w-[390px]">
           <DialogHeader>
             <DialogTitle>rishi-sadanandan/therapy</DialogTitle>
             <DialogDescription>
-              {`An open-source journal built with Tailwind CSS and the Vercel AI SDK. Press `}
+              {`An open-source journal to practice ancient Stoic therapuetic techniques. Press `}
               <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
                 <span className="text-xs">⌘</span>J
               </kbd>
@@ -76,7 +76,7 @@ export default function Chat() {
               </div>
               <div className="flex items-center">
                 <CounterClockwiseClockIcon className="mr-1 h-3 w-3" />
-                Updated July 2023
+                Updated April 2024
               </div>
             </div>
             <Button asChild>
