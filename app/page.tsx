@@ -98,14 +98,8 @@ export default function Chat() {
       >
         <MagicWandIcon className="h-4 w-4" />
       </Button>
-      {/* <TextareaAutosize
-        className="w-full h-32 max-w-xl py-24 border-none resize-none outline-none placeholder-slate-500 placeholder-opacity-50"
-        value={input}
-        placeholder={`Begin writing, press ⌘J for AI...`}
-        onChange={handleInputChange}
-      /> */}
       <TextareaAutosize
-        className="w-full h-full max-w-lg py-6 px-4 md:py-24 md:max-w-xl border-none resize-none outline-none placeholder-slate-500 placeholder-opacity-50"
+        className="w-full h-full max-w-lg pt-6 pb-24 px-4 md:py-24 md:max-w-xl border-none resize-none outline-none placeholder-slate-500 placeholder-opacity-50"
         value={input}
         placeholder={`Begin writing, press ⌘J for AI...`}
         onChange={handleInputChange}
